@@ -67,10 +67,37 @@ This repository contains the reproduction code for **Graph-R1**, a small reasoni
 | Model           | AIME25 (pass@64) | AIME24 (pass@64) | Math500 (pass@8) | Avg Improvement |
 | --------------- | ---------------- | ---------------- | ---------------- | --------------- |
 | Base Model      | 26.7             | 33.3             | 86.2             | -               |
-| **RFT Model**       | 33.3 (+24.7%)    | 40.0 (+20.1%)    | 87.0 (+0.9%)     | **+17.9%**      |
+| **RFT Model**   | 33.3 (+24.7%)    | 40.0 (+20.1%)    | 87.0 (+0.9%)     | **+17.9%**      |
 | **Graph-R1-7B** | 33.3 (+24.7%)    | 30.0 (-9.9%)     | 88.0 (+2.1%)     | **+7.6%**       |
 
 ## Quick Start on Training
+
+### Data Preparation
+
+Before starting training, you need to download and prepare the source data files. These files are large and have been excluded from the repository to keep it lightweight.
+
+#### Download Source Data
+
+```bash
+# Create the source directory
+mkdir -p verl/verl/utils/reward_score/tasks/source
+
+# Download the required data files
+cd verl/verl/utils/reward_score/tasks/source
+
+# Method 1: Using gdown (recommended)
+pip install gdown
+gdown 1meKois5K3SVfTlEhn1FQNfXzq2S6NFvq
+
+# Method 2: Using Google Drive Link
+# access https://drive.google.com/file/d/1meKois5K3SVfTlEhn1FQNfXzq2S6NFvq/view?usp=sharing
+
+# Extract the compressed data
+tar -xzf source.tar.gz
+
+# Clean up the compressed file (optional)
+rm source.tar.gz
+```
 
 ### Training Environment Setup
 
@@ -100,7 +127,6 @@ bash 7b_norepeat_stage1.sh
 # Full curriculum learning (5 levels)
 bash curriculum_learning_full.sh
 ```
-
 
 ## Repository Structure
 
