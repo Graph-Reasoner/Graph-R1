@@ -154,9 +154,9 @@ Graph-R1/
 
 ### Recommended Configuration
 
-| Component | Specification | Notes                      |
-| --------- | ------------- | -------------------------- |
-| **GPU**   | 8x A800 80GB  | For optimal training speed |
+| Component | Specification |
+| --------- | ------------- |
+| **GPU**   | 8x A800 80GB  |
 
 ## Citation
 
