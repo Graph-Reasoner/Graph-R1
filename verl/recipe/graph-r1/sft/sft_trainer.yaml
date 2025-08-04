@@ -1,0 +1,68 @@
+data:
+  train_batch_size: 8
+  micro_batch_size: null
+  micro_batch_size_per_gpu: 1
+  train_files: /path/to/your/train_data.parquet
+  val_files: /path/to/your/val_data.parquet
+  prompt_key: prompt
+  response_key: response
+  prompt_dict_keys: null
+  response_dict_keys: null
+  multiturn:
+    enable: false
+    messages_key: messages
+    tools_key: tools
+    enable_thinking_key: enable_thinking
+  max_length: 128000
+  truncation: right
+  balance_dp_token: false
+  chat_template: null
+  custom_cls:
+    path: null
+    name: null
+  use_shm: false
+
+model:
+  partial_pretrain: /path/to/your/base/model
+  use_shm: false
+  fsdp_config:
+    model_dtype: bf16
+    wrap_policy:
+      min_num_params: 0
+    cpu_offload: false
+    offload_params: false
+  external_lib: null
+  enable_gradient_checkpointing: true
+  trust_remote_code: false
+  lora_rank: 0
+  lora_alpha: 16
+  target_modules: all-linear
+  use_liger: false
+  strategy: fsdp
+
+optim:
+  lr: 1.0e-5
+  betas: [0.9, 0.95]
+  weight_decay: 0.01
+  warmup_steps_ratio: 0.1
+  clip_grad: 1.0
+  lr_scheduler: cosine
+
+ulysses_sequence_parallel_size: 4
+use_remove_padding: true
+
+trainer:
+  default_local_dir: /path/to/your/checkpoints/sft
+  default_hdfs_dir: null
+  resume_path: null
+  project_name: sft-training
+  experiment_name: graph-sft-model
+  total_epochs: 2
+  total_training_steps: null
+  logger: ["console", "wandb"]
+  seed: 1
+  save_freq: -1
+  test_freq: -1
+  nnodes: 1
+  n_gpus_per_node: 8
+  max_ckpt_to_keep: null
