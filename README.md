@@ -117,9 +117,6 @@ bash run_sft.sh
 #### Stage 2: Reinforcement Learning with Curriculum Learning
 
 ```bash
-# Single-level training
-bash 7b_norepeat_stage1.sh
-
 # Full curriculum learning (5 levels)
 bash curriculum_learning_full.sh
 ```
@@ -137,7 +134,6 @@ Graph-R1/
 │           │   ├── run_sft.sh              #   Training script
 │           │   ├── sft_trainer.yaml        #   Configuration
 │           │   └── SFT_README.md           #   Documentation
-│           ├── 7b_norepeat_stage1.sh       # Stage 2: Single-level RL
 │           ├── curriculum_learning_full.sh # Stage 2: Full curriculum
 │           ├── README.md                   # RL training guide
 │           └── CURRICULUM_README.md        # Curriculum guide
