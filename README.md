@@ -46,7 +46,7 @@ This repository contains the reproduction code for **Graph-R1**, a small reasoni
 
 | Model             | TSP Acc. | GED Acc. | MCP Acc. | Average  |
 | ----------------- | -------- | -------- | -------- | -------- |
-| QwQ-32B           | 89.4     | 70.2     | 96.2     | **85.3** |
+| QwQ-32B           | 89.4     | 70.2     | 96.2     | 85.3 |
 | Claude-3.5-Sonnet | 45.4     | 37.2     | 62.2     | 48.3     |
 | GPT-4o            | 44.2     | 32.6     | 62.4     | 46.4     |
 | **Graph-R1-7B**   | **91.8** | **68.2** | **97.0** | **85.7** |
@@ -56,7 +56,7 @@ This repository contains the reproduction code for **Graph-R1**, a small reasoni
 
 | Model             | TSP Acc. | GED Acc. | MCP Acc. | Average  |
 | ----------------- | -------- | -------- | -------- | -------- |
-| QwQ-32B           | 7.6      | **7.4**  | **64.6** | **26.5** |
+| QwQ-32B           | 7.6      | **7.4**  | **64.6** | 26.5 |
 | Claude-3.5-Sonnet | 2.8      | 3.4      | 19.0     | 8.4      |
 | GPT-4o            | 0.8      | 2.4      | 15.2     | 6.1      |
 | **Graph-R1-7B**   | **11.2** | 6.2      | 63.6     | **27.0** |
