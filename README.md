@@ -114,11 +114,7 @@ cd verl/recipe/graph-r1/sft/
 bash run_sft.sh
 ```
 
-<div align="center">
-
 #### Stage 2: Reinforcement Learning with Curriculum Learning
-
-</div>
 
 ```bash
 # Single-level training
