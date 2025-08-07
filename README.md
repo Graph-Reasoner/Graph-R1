@@ -46,10 +46,10 @@ This repository contains the reproduction code for **Graph-R1**, a small reasoni
 
 | Model             | TSP Acc. | GED Acc. | MCP Acc. | Average  |
 | ----------------- | -------- | -------- | -------- | -------- |
-| QwQ-32B           | 89.4     | 70.2     | 96.2     | 85.3 |
+| QwQ-32B           | 89.4     | **70.2**     | 96.2     | 85.3 |
 | Claude-3.5-Sonnet | 45.4     | 37.2     | 62.2     | 48.3     |
 | GPT-4o            | 44.2     | 32.6     | 62.4     | 46.4     |
-| **Graph-R1-7B**   | **91.8** | **68.2** | **97.0** | **85.7** |
+| **Graph-R1-7B**   | **91.8** | 68.2 | **97.0** | **85.7** |
 | **Graph-R1-1.5B** | 44.6     | 28.4     | 53.0     | 42.0     |
 
 ### Complex Graph Problems (Large Scale)
