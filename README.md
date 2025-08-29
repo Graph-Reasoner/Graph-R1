@@ -10,7 +10,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-under%20review-red)](https://github.com/Graph-Reasoner/Graph-R1) [![Hugging Face Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue)](https://huggingface.co/HKUST-DSAIL) [![Hugging Face Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-green)](https://huggingface.co/datasets/HKUST-DSAIL/Graph-R1-SFT-30K) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![arXiv](https://img.shields.io/badge/arXiv-under%20review-red)](https://arxiv.org/abs/2507.17168) [![Hugging Face Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue)](https://huggingface.co/HKUST-DSAIL) [![Hugging Face Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-green)](https://huggingface.co/datasets/HKUST-DSAIL/Graph-R1-SFT-30K) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
 
