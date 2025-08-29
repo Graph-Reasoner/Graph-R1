@@ -155,11 +155,12 @@ Graph-R1/
 If you use this code or models in your research, please cite:
 
 ```bibtex
-@misc{graph-r1-2025,
-  title={Graph-R1: A Small Reasoning Language Model for Complex Graph Problems},
-  author={HKUST-DSAIL},
-  year={2025},
-  url={https://github.com/Graph-Reasoner/Graph-R1},
-  note={arXiv preprint under review}
-}
-```
+@misc{wang2025graphr1unleashingllmreasoning,
+      title={Graph-R1: Unleashing LLM Reasoning with NP-Hard Graph Problems}, 
+      author={Yuyao Wang and Bowen Liu and Jianheng Tang and Nuo Chen and Yuhan Li and Qifan Zhang and Jia Li},
+      year={2025},
+      eprint={2508.20373},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.20373}, 
+}```
